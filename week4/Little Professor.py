@@ -14,7 +14,7 @@ def main():
     score = 0
     game_level , game_mode = get_level()
 
-    while questions_num < 3:  
+    while questions_num < 10:  
         if chances == 3:
             n1, n2 = generate_integer(game_level, game_mode)
         try:
